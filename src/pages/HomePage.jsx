@@ -34,7 +34,7 @@ const HomePage = () => {
     e.preventDefault()
     try {
       // Send a POST request to your server with the user's Firebase UID and activity data
-      await axios.post('http://localhost:8000/getId', {activity: inputValue, Uid: iden, email: userId } );
+      await axios.post('https://hahah-8zsi.onrender.com/getId', {activity: inputValue, Uid: iden, email: userId } );
       alert('Activity saved successfully');
     } catch (error) {
       // Log the error to the console for debugging purposes

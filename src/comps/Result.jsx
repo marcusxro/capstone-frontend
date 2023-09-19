@@ -10,7 +10,7 @@ const Result = () => {
     const [user, setUser] = useState()
 
     useEffect(() => {
-        axios.get('http://localhost:8000/database')
+        axios.get('https://hahah-8zsi.onrender.com/database')
             .then((res) => {
                 setResults(res.data);
             })
