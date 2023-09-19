@@ -13,7 +13,7 @@ const UrActivity = () => {
     useEffect(() => {
         setLoading(true);
 
-        axios.get('https://hahah-8zsi.onrender.com/database')
+        axios.get('https://backendforcapstone.onrender.com/database')
             .then((res) => {
                 console.log('Data fetched successfully');
                 setResults(res.data);

@@ -10,7 +10,7 @@ const Result = () => {
     const [user, setUser] = useState()
 
     useEffect(() => {
-        axios.get('https://hahah-8zsi.onrender.com/database')
+        axios.get('https://backendforcapstone.onrender.com/database')
             .then((res) => {
                 setResults(res.data);
             })
